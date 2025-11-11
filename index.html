@@ -1,30 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sole DXB</title>
-    <link rel="stylesheet" href="Styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Tektur:wdth,wght@75..100,400..900&display=swap" rel="stylesheet">
-</head>
-<header>
+    <link rel="stylesheet" href="Styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&family=Tektur:wdth,wght@75..100,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/Icon.png" />
+  </head>
+  <header>
     <nav id="navbar">
-        <img  class="Logo" id="logonav" src="img/soledxb.png" alt="Sole DXB Logo" width="150px">
-    <a class="Navs" href="index.html">Home</a>
-    <a class="Navs" href="about.html">About</a>
-    <a class="Navs" href="gallery.html">Gallery</a>
+      <img
+        class="Logo"
+        id="logonav"
+        src="img/soledxb.png"
+        alt="Sole DXB Logo"
+        width="150px"
+      />
+      <a class="Navs" href="index.html">Home</a>
+      <a class="Navs" href="booking.html">Tickets</a>
+      <a class="Navs" href="about.html">About</a>
+      <a class="Navs" href="gallery.html">Gallery</a>
     </nav>
-</header>
-<body class="Home">
+  </header>
+  <body class="Home">
     <div class="introduction">
-    <section class="home-intro">
-        <h1>Welcome to Sole DXB</h1>
-        <p class="des">an independent community-driven platform that is the leading voice for youth and contemporary culture across the Middle East and North Africa.</p>
-        <button class="money" onclick="location.href='booking.html'">book now</button>
-    
-    </section>
+      <div class="video-background">
+        <video autoplay muted loop playsinline>
+          <source src="img/SoleDXBVideo.mp4" type="video/mp4" />
+        </video>
+
+        <section class="home-intro">
+          <h1>Welcome to Sole DXB</h1>
+          <p class="des">
+            an independent community-driven platform that is the leading voice
+            for youth and contemporary culture across the Middle East and North
+            Africa.
+          </p>
+          <button class="money" onclick="location.href='booking.html'">
+            Book now
+          </button>
+        </section>
+      </div>
     </div>
-</body>
+  </body>
+  <footer>
+    <section class="copyright">
+      <p id="copyinfo">&copy; 2025 Sole DXB. All rights reserved.</p>
+      <p id="designer">Designed by AJ</p>
+    </section>
+  </footer>
 </html>

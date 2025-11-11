@@ -1,95 +1,196 @@
-html{
-    font-family: 'Tektur', Russo One,  sans-serif;
-    scroll-behavior: smooth;
-    scroll-padding-top: 80px;
+html {
+  font-family: "Tektur", Russo One, sans-serif;
+  scroll-behavior: auto;
+  scroll-padding-top: 80px;
+  scroll-padding-bottom: 50px;
+  scrollbar-width: none;
+  margin: 0;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
 
 #navbar {
-    top: 10px;
-    width: auto;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 100px;
-    position: sticky;
-    border-color: black;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.337);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 90px;
+  position: sticky;
+  border-color: black;
 }
 #logonav {
-    margin-right: auto;
-    margin-left: 20px;
+  margin-right: auto;
+  margin-left: 20px;
 }
 .Navs {
-    flex-direction: row-reverse;
-    text-decoration: none;
-    color: black;
-    font-size: x-large;
-    padding: 10px;
-    text-align: center;
-    margin-right: 10px;
+  flex-direction: row-reverse;
+  text-decoration: none;
+  color: black;
+  font-size: x-large;
+  padding: 10px;
+  text-align: center;
+  margin-right: 10px;
 }
 
 #navbar :hover {
-    background-color: rgb(200, 200, 200);
-    border-radius: 10px;
+  background-color: rgb(200, 200, 200);
+  border-radius: 10px;
+}
+
+#navbar a :active {
+  color: rgb(103, 103, 103);
+  background-color: rgb(200, 200, 200);
 }
 
 #logonav:hover {
-    transform: scale(1.2);
-    transition: transform 0.3s;
-    background-color:white ;
+  transform: scale(1.2);
+  transition: transform 0.3s;
+  background-color: white;
 }
 .Home {
-    background-color: rgb(26, 26, 26);
-    color: whitesmoke;
+  background-color: rgb(26, 26, 26);
+  color: whitesmoke;
 }
 
 h1 {
-    font-size: 3em;
-    text-align: center;
-    
+  font-size: 3rem;
+  text-align: center;
+  order: -1;
+  margin: 5px;
+  padding: 5px;
+}
+
+.introduction {
+  display: flex;
+}
+
+.home-intro h1 {
+  font-size: 5rem;
+  text-align: center;
+  order: -1;
+  margin: 5px;
+  margin-bottom: 0px;
+  padding: 5px;
 }
 
 .home-intro {
-    background-image: url('img/sole-intro.webp');
-    display: flex;
-    justify-content: center;
-    font-size: 1.5em;
-    text-align: center;
-    margin-top: 1px;
-    align-items: center;
-    flex-direction: column;
-    padding: 10px;
-    min-height: 1000px 
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 1px;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 10px;
+  min-height: 840px;
+  width: 100%;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.741);
+  gap: 1px;
 }
 
 .des {
-    max-width: 600px;
-    font-size: 1rem;
-    line-height: 1.6;
-}
-
-.indroduction {
-    display: flex;
-    flex-direction: column;
-    align-items: center;;
+  font-family: "Russo One", sans-serif;
+  max-width: 720px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: left;
+  order: 2;
+  margin: 0px;
+  margin-bottom: 3px;
+  padding: 10px;
 }
 
 .money {
-    background-color: rgba(243, 241, 241, 0.889);
-    color: rgb(0, 0, 0);
-    border: none;
-    padding: 15px 30px;
-    font-size: 1.2em;
-    cursor: pointer;
-    border-radius: 10px;
-    margin-top: 20px;
-    font-family: 'Tektur', Russo One,  sans-serif;
+  background-color: rgba(243, 241, 241, 0.272);
+  color: rgb(0, 0, 0);
+  text-shadow: rgb(208, 206, 206) 1px 0px 0px;
+  border: none;
+  padding: 15px 30px;
+  margin: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-family: "Tektur", Russo One, sans-serif;
+  align-self: flex-start;
+  order: 2;
+  font-weight: bold;
 }
 .money:hover {
-    background-color: rgb(200, 200, 200);
-    transform: scale(1.1);
-    transition: transform 0.9s ease-in-out;
+  background-color: rgb(200, 200, 200);
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.video-background {
+  background-color: rgba(0, 0, 0, 0.27);
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video-background video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: -1;
+}
+
+.video-background .content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+}
+
+.copyright {
+  display: flex;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 50px;
+  background-color: rgb(26, 26, 26);
+  color: white;
+  font-size: 0.9em;
+  align-content: flex-start;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 10px;
+}
+
+#designer {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.about-section {
+    display: flex;
+    margin-top: 10px;
+  padding: 10px;
+}
+
+.about-section h1 {
+    background-color: rgba(243, 241, 241, 0.272);
+    color: rgb(255, 255, 255);
+    border-radius: 16px;
+    text-align: left;
+    margin: 2px;
+    max-width: 500px;
+    padding: 10px 30px 10px 30px;
+    
+}
+
+.about-page {
+    background-color: rgb(58, 58, 58);
 }

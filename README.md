@@ -17,3 +17,22 @@ the way? justify the flex to the right for all the nav. then calirfy margin-righ
 
 i thought i was done with the horrors of css... now i cant make a background image for some reason... whyy whyyyyyy
 
+(11th Nove 2025)
+
+Finaaallyy i figured it out after hours and hours of testing.. the background image is workkingggg (well by adding it to the html style output)
+but now a new problem rises... why is the webpage has a weird border? i looked at the html.. i looked at the css.. why is that happening?
+
+okay finally fixed it.. had to makesure i set a margin for the body since for some reason the default margin was 5px.
+
+i thought about making a video background instead of a photo.. so with learning a bit more about the video source element i had done it.. aaah i am so Proud of myself
+
+damn.. now i don't know how to get the copy right footer to be all the way down for the webpage to look consistent
+i got that done.. 
+
+i want the nav to follow the scroll so its sticking to the screen.. i made a postion: fixed..
+but now the background color of the body is show on the header? ha? how?
+i give up on that idea ;-;
+
+added a new section in the nav for tickets. now that i have a bit of the css styles set the rest will be easier to go through (or so i thought)
+
+
