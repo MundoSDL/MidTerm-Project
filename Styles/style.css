@@ -165,19 +165,22 @@ h1 {
   align-content: flex-start;
   position: relative;
   bottom: 0;
-  width: 100%;
+  width: 98%;
   height: 10px;
 }
 
 #designer {
   margin-left: auto;
-  margin-right: 50px;
 }
 
+
 .about-section {
-    display: flex;
+  display: grid;
+  
+border: 2px solid black;
     margin-top: 10px;
   padding: 10px;
+  gap: 10px;
 }
 
 .about-section h1 {
@@ -188,9 +191,75 @@ h1 {
     margin: 2px;
     max-width: 500px;
     padding: 10px 30px 10px 30px;
-    
+    border: 2px solid black;
 }
 
 .about-page {
     background-color: rgb(58, 58, 58);
+    max-height: 100%;
+    min-height: 800px;
 }
+
+.about-section p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    text-align: left;
+    color: white;
+    max-width: 1000px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+/* using a CSS Grid Generator i simplify the creation of grids */
+
+.about-section  {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 20px;
+}
+    
+.Grid1{
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+}
+
+.grid2 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.grid3 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 4;
+}
+
+.grid4 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 5;
+}
+
+.div5 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+
+.div6 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+.div7 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 5;
+}
+        
