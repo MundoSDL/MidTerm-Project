@@ -24,6 +24,7 @@ body {
   height: 90px;
   position: sticky;
   border-color: black;
+  flex-wrap: wrap;
 }
 #logonav {
   margin-right: auto;
