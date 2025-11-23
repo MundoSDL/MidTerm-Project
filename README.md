@@ -38,4 +38,6 @@ added a new section in the nav for tickets. now that i have a bit of the css sty
 
 i found a nice CSS grid Generator where i can preview how the grid looks like and where i can place every class or Div..
 i tried it and it made writing the code a lot easier.
-
+(3 hours later)
+the grid css did not work.
+i give up on About page for now.. ama focus on the Tickets Page
