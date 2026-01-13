@@ -17,7 +17,7 @@ the way? justify the flex to the right for all the nav. then calirfy margin-righ
 
 i thought i was done with the horrors of css... now i cant make a background image for some reason... whyy whyyyyyy
 
-(11th Nove 2025)
+(11th Nov 2025)
 
 Finaaallyy i figured it out after hours and hours of testing.. the background image is workkingggg (well by adding it to the html style output)
 but now a new problem rises... why is the webpage has a weird border? i looked at the html.. i looked at the css.. why is that happening?
