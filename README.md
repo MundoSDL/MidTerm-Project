@@ -43,3 +43,8 @@ the grid css did not work.
 i give up on About page for now.. ama focus on the Tickets Page
 
 i couldn't finish the Tickets page in time for the mid-term presentation.. but at least i have the blueprint ready in my head...Muahahahaha
+----------------------------------------------
+
+(18 jan 2026)
+here we are again.. after a long break i am back to work on this project. time to finalise for the finals :D.
+
