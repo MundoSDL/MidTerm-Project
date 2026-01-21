@@ -12,9 +12,11 @@
       rel="stylesheet"
     />
     <link rel="icon" href="img/Icon.png" />
+
   </head>
   <header>
     <nav id="navbar">
+      
       <img
         class="Logo"
         id="logonav"
@@ -26,10 +28,14 @@
       <a class="Navs" href="booking.html">Tickets</a>
       <a class="Navs" href="about.html">About</a>
       <a class="Navs" href="gallery.html">Gallery</a>
-    </nav>
+        <label for="menu-toggle" class="hamburger"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#ffffff"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></label>
+        <input type="checkbox" id="menu-toggle" />
+       
+        </nav>
   </header>
 
 <body >
+<img class="tickets-bg" src="img/ticketsbg.jpg" alt="Tickets Background" />
     <div class="tickets-body">
     <div class="tickets-left">
     <h1> Tickets on sale! </h1>
@@ -46,7 +52,8 @@
         <p> 58 AED x 2 Children</p>
         <div class="total-cost"> 
             <h2> Total:  </h2>
-            <h2> 476 AED </h2>
+            <h2 id="price"> 476 AED </h2>
+            <button onclick="location.href='payment.html'"> Proceed to Payment </button>
         </div>
     </div>
     </div>
